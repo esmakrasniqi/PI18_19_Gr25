@@ -1,9 +1,0 @@
-Per admin
-user: admin
-password: Test@123
-
-
-users
-1   krasniqiesma@gmail.com esma1234
-2   vitijaelsa@gmail.com   elsa1234
-3   fatbardhpodvorica@gmail.com  bardhi1234

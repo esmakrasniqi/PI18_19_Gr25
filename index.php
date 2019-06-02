@@ -14,7 +14,7 @@ if(isset($_POST['signup']))
 	$msg=mysqli_query($con,"insert into users(fname,lname,email,password,contactno,posting_date) values('$fname','$lname','$email','$enc_password','$contact','$a')");
 if($msg)
 {
-	echo "<script>alert('Register successfully');</script>";
+	echo "<script>alert('U regjistruat me sukses');</script>";
 }
 }
 
@@ -39,7 +39,7 @@ exit();
 }
 else
 {
-echo "<script>alert('Invalid username or password');</script>";
+echo "<script>alert('Username ose fjalekalimi gabim.');</script>";
 $extra="index.php";
 $host  = $_SERVER['HTTP_HOST'];
 $uri  = rtrim(dirname($_SERVER['PHP_SELF']),'/\\');
@@ -49,6 +49,7 @@ exit();
 }
 
 //Code for Forgot Password
+
 
 if(isset($_POST['send']))
 {
@@ -61,15 +62,16 @@ $subject = "Information about your password";
 $password=$row2['password'];
 $message = "Your password is ".$password;
 mail($email, $subject, $message, "From: $email");
-echo  "<script>alert('Your Password has been sent Successfully');</script>";
+echo  "<script>alert('Fjalekalimi u dergua me sukses.');</script>";
 }
 else
 {
-echo "<script>alert('Email not register with us');</script>";	
+echo "<script>alert('Email Adresa nuk eshte regjistruar.');</script>";	
 }
 }
 
 ?>
+
 <!DOCTYPE html>
 <html>
 <head>
