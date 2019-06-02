@@ -57,8 +57,8 @@ CREATE TABLE IF NOT EXISTS `users` (
 --
 
 INSERT INTO `users` (`id`, `fname`, `lname`, `email`, `password`, `contactno`, `posting_date`) VALUES
-(9, 'Anuj', 'Kumar', 'demouser@gmail.com', 'f925916e2754e5e03f75dd58a5733251', '2015-11-12', '2015-11-12'),
-(10, 'Amit', 'tomar', 'dfhfd@gm.com', 'f925916e2754e5e03f75dd58a5733251', '82888888888', '2017-12-16');
+(9, 'Esma', 'Krasniqi', 'krasniqiesma@gmail.com', 'c6891b4284bcaee11c519f7e9e114ac2', '213124124', '2019-06-02'),
+(10, 'Fatbardh', 'Podvorica', 'fatbardhpodvorica@gmail.com', '5fe35286568ab55af4bc96d74ddec660', '3454365', '2019-06-02');
 
 --
 -- Indexes for dumped tables
