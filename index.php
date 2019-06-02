@@ -120,7 +120,7 @@ echo "<script>alert('Email Adresa nuk eshte regjistruar.');</script>";
 								<p>Mbiemri </p>
 								<input type="text" class="text" value="" name="lname"  required >
 								<p>Email Adresa</p>
-								<input type="text" class="text" value="" name="email"  >
+								<input type="text" class="text" value="" name="email"  required >
 								<p>Fjalekalimi </p>
 								<input type="password" value="" name="password" required>
 										<p>Numri i telefonit</p>
@@ -130,6 +130,10 @@ echo "<script>alert('Email Adresa nuk eshte regjistruar.');</script>";
 									<input type="submit" name="signup"  value="Regjistrohu" >
 									<div class="clear"> </div>
 								</div>
+			
+                <a href="http://fb.com" target="_blank"><img height="40px" width="40px" float="center" src="images/fb.png" alt="facebook" /></a>
+                <a href="https://twitter.com/i/flow/signup" target="_blank"><img height="40px" width="40px" src="images/twt.png" alt="twitter" /></a>
+               
 							</form>
 
 						</div>
